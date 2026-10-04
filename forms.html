@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Patient Forms | Complementary Medicine Consultants</title>
+  <meta name="description" content="New patient intake forms for Complementary Medicine Consultants in Lakewood, CO.">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="topbar">
+    <div class="wrap">
+      <span>7220 W. Jefferson Avenue, Suite 218, Lakewood, CO 80235</span>
+      <a href="tel:+13032049067">Call us: 303-204-9067</a>
+    </div>
+  </div>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html">
+        <img src="images/logo-mark.svg" alt="" width="44" height="44">
+        <span><strong>Complementary Medicine</strong><em>Consultants</em></span>
+      </a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" aria-label="Main">
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="chiropractic.html">Chiropractic</a></li>
+        <li><a href="acupuncture.html">Acupuncture</a></li>
+        <li><a href="first-visit.html">Your First Visit</a></li>
+        <li><a href="forms.html" aria-current="page">Forms</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="page-hero">
+      <div class="wrap">
+        <p class="crumb"><a href="index.html">Home</a> / <a href="first-visit.html">Your First Visit</a> / Forms</p>
+        <h1>Patient forms</h1>
+        <p class="lede">Filling out your forms before your first appointment helps us spend more of your visit on you.</p>
+      </div>
+    </section>
+    <section class="content">
+      <div class="wrap narrow">
+        <ul class="form-list">
+          <!-- To add a form: put the PDF in the "forms" folder and copy one of these list items. -->
+          <!--
+      <li>
+        <div><h2>New patient intake form</h2><p>Personal information, health history, and your reason for visiting.</p></div>
+        <a class="btn" href="forms/new-patient-intake.pdf" download>Download PDF</a>
+      </li>
+      -->
+        </ul>
+        <p class="note">Arrive a few minutes early and we&rsquo;ll have forms ready for you at the front desk. Questions? Call <a href="tel:+13032049067">303-204-9067</a>.</p>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <h2>Gloria De La Vara, CAc., DC</h2>
+        <p class="muted">Complementary Medicine Consultants, Inc.</p>
+        <p>Chiropractic Physician<br>Certified Acupuncturist<br>Concierge Wellness Care</p>
+      </div>
+      <div>
+        <h2>Visit</h2>
+        <p>7220 W. Jefferson Avenue<br>Suite 218<br>Lakewood, CO 80235</p>
+      </div>
+      <div>
+        <h2>Call</h2>
+        <p>Phone: <a href="tel:+13032049067">303-204-9067</a><br>Fax: 720-230-5433</p>
+        <a class="btn btn-light" href="contact.html">Schedule an appointment</a>
+      </div>
+    </div>
+    <div class="wrap footer-bottom">
+      <p>Complementary Medicine Consultants, Inc., provides individualized care for your special health care goals.</p>
+      <p>&copy; <span id="year">2026</span> Complementary Medicine Consultants, Inc.</p>
+    </div>
+  </footer>
+  <script>
+    (function () {
+      var b = document.querySelector('.menu-toggle'), n = document.getElementById('site-nav');
+      b.addEventListener('click', function () {
+        var open = n.classList.toggle('open');
+        b.setAttribute('aria-expanded', open);
+      });
+      document.getElementById('year').textContent = new Date().getFullYear();
+    })();
+  </script>
+</body>
+</html>
