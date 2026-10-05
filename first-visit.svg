@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" role="img" aria-label="Clipboard with intake form">
+  <rect width="480" height="480" fill="#dfe7dc"/>
+  <circle cx="240" cy="250" r="180" fill="#f7f2ea"/>
+  <rect x="112" y="92" width="256" height="320" rx="22" fill="#2f4a3a"/>
+  <rect x="128" y="120" width="224" height="276" rx="12" fill="#fffdf9"/>
+  <rect x="190" y="78" width="100" height="40" rx="12" fill="#b8683f"/>
+  <circle cx="240" cy="92" r="7" fill="#fffdf9"/>
+  <rect x="145" y="140" width="120" height="14" rx="7" fill="#2f4a3a" opacity=".85"/>
+  <rect x="165" y="180" width="160" height="10" rx="5" fill="#dfe7dc"/><circle cx="150" cy="185" r="7" fill="none" stroke="#5d7a64" stroke-width="2.5"/><rect x="165" y="220" width="130" height="10" rx="5" fill="#dfe7dc"/><circle cx="150" cy="225" r="7" fill="none" stroke="#5d7a64" stroke-width="2.5"/><rect x="165" y="260" width="150" height="10" rx="5" fill="#dfe7dc"/><circle cx="150" cy="265" r="7" fill="none" stroke="#5d7a64" stroke-width="2.5"/><rect x="165" y="300" width="110" height="10" rx="5" fill="#dfe7dc"/><circle cx="150" cy="305" r="7" fill="none" stroke="#5d7a64" stroke-width="2.5"/><path d="M145 185 l4 4 l8 -9" fill="none" stroke="#b8683f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M145 225 l4 4 l8 -9" fill="none" stroke="#b8683f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="145" y="345" width="90" height="26" rx="13" fill="#5d7a64"/>
+</svg>

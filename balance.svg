@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" role="img" aria-label="Balanced stones and leaf">
+  <rect width="480" height="480" fill="#dfe7dc"/>
+  <circle cx="240" cy="230" r="170" fill="#f7f2ea"/>
+  <ellipse cx="240" cy="392" rx="150" ry="14" fill="#5d7a64" opacity=".25"/>
+  <ellipse cx="240" cy="352" rx="112" ry="40" fill="#2f4a3a"/>
+  <ellipse cx="236" cy="282" rx="86" ry="32" fill="#5d7a64"/>
+  <ellipse cx="244" cy="226" rx="62" ry="25" fill="#a7bba6"/>
+  <ellipse cx="240" cy="182" rx="40" ry="19" fill="#b8683f"/>
+  <path d="M300 160 C 330 100 390 90 420 100 C 410 150 360 180 300 160 Z" fill="#5d7a64"/>
+  <path d="M300 160 C 340 140 380 115 418 102" stroke="#fffdf9" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+</svg>
